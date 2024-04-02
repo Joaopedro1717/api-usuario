@@ -2,9 +2,15 @@
   "name": "usuario",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
   "author": "João Pedro",
   "license": "MIT",
   "dependencies": {
     "express": "^4.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
